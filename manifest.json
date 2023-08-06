@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "hello world",
+    "version": "1.0",
+    "description": "A hello world extension",
+    "icons": {
+        "128": "windows.jpg",
+        "48": "windows.jpg",
+        "16": "windows.jpg"
+    },
+    "action": {
+        "default_icon": "windows.jpg",
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html", 
+    "backgrounds": {
+        "scripts": ["eventPage.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "storage",
+        "notifications",
+        "contextMenu"
+    ]
+}
